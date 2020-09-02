@@ -22,7 +22,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 40px;
+    margin: 20px;
 }
 .header-img img{
     width: 200px;
@@ -292,6 +292,7 @@ form{
     width: 130px;
     transition: 300ms;
     margin-top: 2em;
+    border-radius: 10px;
 }
 .details-btn:hover{
     color: var(--blue-color);
@@ -368,7 +369,7 @@ textarea{
 }
 
 /* ------------------------------footer */
-.footer div{
+.footer-contain{
     color: #fff;
     display: flex;
     align-items: center;
@@ -377,4 +378,15 @@ textarea{
     padding: 30px;
     margin: 50px;
     background-color: var(--black-color);
+}
+
+.footer-contain a{
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 30px;
+    transition: 300ms;
+}
+.footer-contain a:hover{
+    color: var(--blue-color);
 }
