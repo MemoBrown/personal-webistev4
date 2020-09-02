@@ -3,7 +3,9 @@
     --purple-color: #FF00FF;
     --dark-theme: #27272B;
     --light-theme: #EDEEFF;
-    --black-color: #0A0A0C;
+	--black-color: #0A0A0C;
+	--color-top-right: #222;
+	--color-bottom-left: #000;
 }
 
 *{
@@ -134,8 +136,10 @@ img, svg {
 .hero-title{
     text-align: center;
     position: relative;
-    top: 5em;
+    top: 5.5em;
     z-index: 1;
     font-size: 40px;
     color: var(--dark-theme);
 }
+
+/* ---------------------------------projects */
