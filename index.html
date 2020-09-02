@@ -71,7 +71,7 @@
 
     <section class="aboutMe">
         <h1 class="aboutMe-title">¡Hola! Soy Guillermo Moreno</h1>
-        <img src="src/images/vOc6EgX.jpg" alt="">
+        <img src="src/images/vOc6EgX.jpg" alt="Guillermo Moreno">
         <p class="aboutMe-desc">
             Vivo en Guadalajara, México, y me dedico al desarrollo de páginas web (Frontend developer). Estoy aquí para servirle al mundo y ¡a ti! ¡Contáctame ya mismo! Me encantaría platicar contigo.
         </p>
@@ -79,33 +79,70 @@
 
     <section class="personal-projects">
         <h1 class="pp-title">> Proyecto personales</h1>
-        <img src="src/images/spa.png" alt="">
-        <img src="src/images/trymovie.png" alt="">
-        <img src="src/images/generator.png" alt="">
-        <img src="src/images/rick.png" alt="">
-        <img src="src/images/mooncake.png" alt="">
-        <img src="src/images/simon.png" alt="">
-        <img src="src/images/mb-blue.png" alt="">
-        <img src="src/images/plv.png" alt="">
-        <img src="src/images/mb-yellow.png" alt="">
-        <img src="src/images/google-clone.png" alt="">
+        <div class="container">
+            <img class="img-projects" src="src/images/mb-yellow.png" alt="">
+            <img class="img-projects" src="src/images/spa.png">
+            <img class="img-projects" src="src/images/trymovie.png" alt="">
+            <img class="img-projects" src="src/images/generator.png" alt="">
+            <img class="img-projects" src="src/images/google-clone.png" alt="">
+            <img class="img-projects" src="src/images/rick.png" alt="">
+            <img class="img-projects" src="src/images/mooncake.png" alt="">
+            <img class="img-projects" src="src/images/simon.png" alt="">
+            <img class="img-projects" src="src/images/mb-blue.png" alt="">
+            <img class="img-projects" src="src/images/plv.png" alt="">
+        </div>
     </section>
 
     <section class="form">
         <h1 class="form-title">> Contacto</h1>
         <form action="enviar.php" method="post">
-            <input type="text" id="names" name="nombre" placeholder="Nombre *" required>
-            <input type="text" id="phone" name="telefono" placeholder="WhatsApp *" required>
-            <input type="text" id="email" name="correo" placeholder="Correo electrónico">
-            <textarea id="mensaje"  name="mensaje" class="details-form" placeholder="Detalles de tu proyecto *" required></textarea>
-            <input type="submit" value="Enviar" id="btnSend" class="details-btn">
+            <div class="form-inputs">
+
+                <div class="form__item">
+                    <label class="form__label" for="firstname">Nombre</label>
+                    <input class="form__input" type="text" id="names" name="nombre" required>
+                    <span class="form__placeholder">Nombre</span>
+                </div>
+
+                <div class="form__item">
+                    <label class="form__label" for="phone">WhatsApp</label>
+                    <input class="form__input" type="text" id="phone" name="telefono" required>
+                    <span class="form__placeholder">WhatsApp</span>
+                </div>
+
+                <div class="form__item">
+                    <label class="form__label" for="email">Correo electrónico</label>
+                    <input class="form__input" type="text" id="email" name="correo">
+                    <span class="form__placeholder">Correo electrónico</span>
+                </div>
+
+            </div>
+
+            <div class="form-inputs">
+
+                <div class="form__item">
+                    <label class="form__label" for="email">Cuéntame sobre tu proyecto</label>
+                    <textarea class="form__input" id="mensaje"  name="mensaje" class="details-form" required></textarea>
+                    <span class="form__placeholder">Cuéntame sobre tu proyecto</span>
+                </div>
+
+                <input type="submit" value="Enviar" id="btnSend" class="details-btn">
+            </div>
         </form>
+
     </section>
 
     <footer class="footer">
-        <h3>Hecho con 💙 por Guillermo</h3>
-        <img src="src/images/icon.png" alt="">
-        <img src="src/images/social.png" alt="">
+        <div>
+            <h3>Hecho con 💙 por Guillermo</h3>
+            <img src="src/images/icon.png" alt="" width="100px">
+            <img src="src/images/social.png" alt="">
+        </div>
     </footer>
+
+    <script src="src/js/TweenMax.min.js"></script>
+    <script src="src/js/nearby.js"></script>
+    <script src="src/js/charming.min.js"></script>
+    <script src="src/js/input.js"></script>
 </body>
 </html>
