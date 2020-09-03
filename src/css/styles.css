@@ -1,7 +1,7 @@
 :root{
     --blue-color: #234AFC;
     --purple-color: #FF00FF;
-    --dark-theme: #27272B;
+    --dark-theme: #27272b;
     --light-theme: #EDEEFF;
 	--black-color: #0A0A0C;
 	--color-top-right: #222;
@@ -29,36 +29,8 @@ body{
 }
 .header-img img{
     padding: 15px;
-    width: 100px;
+    width: 200px;
 }
-
-.click-img{
-    width: 100px;
-    position: absolute;
-    top: 15em;
-    right: 0;
-    margin: 15px;
-}
-.click img{
-    animation: rotate 3s infinite;
-    animation-name: rotate;
-    animation-duration: 800ms;
-    animation-timing-function: ease;
-    animation-delay: 0s;
-    animation-iteration-count: infinite;
-    animation-direction: normal;
-    animation-fill-mode: none;
-    animation-play-state: running;
-  }
-  @keyframes rotate {
-    0%, 100% {
-    transform: rotate(10deg);
-    }
-    50% {
-    transform: rotate(-10deg);
-    }
-  }
-
 nav a {
 	position: relative;
 	display: inline-block;
@@ -140,21 +112,23 @@ nav a:focus {
 }
 
 /* ------------------------------------------------hero */
-
-canvas {
-    display: block;
-    width: 100vw;
-    height: 100vh;
-  }
+.hero{
+    height: 100%;
+    overflow: hidden;
+}
+.waves {
+    width: 100%;
+    transform: scale(1.5);
+    margin-top: 7em;
+}
 
 .hero-title{
     text-align: center;
     font-size: 50px;
     color: var(--dark-theme);
     position: relative;
-    bottom: 10em;
+    bottom: 5.5em;
 }
-
 .word {
     padding: 0 14px 0 7px;
     display: inline-block;
@@ -186,7 +160,7 @@ animation: blinkAnim 900ms linear infinite;
     align-items: center;
     justify-content: center;
 	flex-flow: column;
-    /* margin-top: 10em; */
+    /* margin-top: 20em; */
     height: 100%;
 }
 .projects-title{
