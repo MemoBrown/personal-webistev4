@@ -241,3 +241,9 @@ function fauxClick(x, y) {
   fauxClick.pageY = y;
   document.dispatchEvent(fauxClick);
 }
+
+
+function lightMode(){
+  let body = document.body;
+  body.classList.toggle('dark-mode');
+}

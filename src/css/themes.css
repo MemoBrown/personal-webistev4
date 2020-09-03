@@ -1,0 +1,56 @@
+:root{
+    --blue-color: #234AFC;
+    --purple-color: #FF00FF;
+    --dark-theme: #27272B;
+    --light-theme: #EDEEFF;
+	--black-color: #0A0A0C;
+	--color-top-right: #222;
+    --color-bottom-left: #000;
+}
+
+@media (prefers-color-scheme: dark){
+    body{
+        background-color: var(--dark-theme);
+        transition:.40s;
+    }
+    .aboutMe{
+        color: var(--light-theme);
+    }
+    .aboutMe img{
+        border: 5px solid var(--light-theme);
+    }
+    .form{
+        background-color: var(--black-color);
+    }
+    .form__input {
+        background: var(--dark-theme);
+        color: var(--light-theme);
+    }
+    .footer-contain{
+        background-color: var(--black-color);
+    }
+}
+
+@media (prefers-color-scheme: light){
+    body{
+        background-color: var(--light-theme);
+        transition:.40s;
+    }
+    .aboutMe{
+        color: var(--dark-theme);
+    }
+    .aboutMe img{
+        border: 5px solid var(--dark-theme);
+    }
+    .form{
+        background-color: var(--dark-theme);
+    }
+    .form__input {
+        background: var(--light-theme);
+        color: var(--dark-theme);
+    }
+    .footer-contain{
+        background-color: var(--dark-theme);
+    }
+}
+
