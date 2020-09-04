@@ -245,6 +245,10 @@ animation: blinkAnim 900ms linear infinite;
 .img-projects{
     width: 200px;
     border-radius: 15px;
+    transition: 300ms;
+}
+.img-projects:hover{
+    transform: scale(1.1);
 }
 
 /* ------------------------------form */
