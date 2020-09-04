@@ -41,6 +41,9 @@
         font-size: 30px;
         bottom: 7.5em;
     }
+    .waves {
+        transform: scale(3);
+    }
     .btn-page{
         font-size: 11px;
     }
@@ -114,6 +117,9 @@
 }
 
 @media screen and (max-width: 480px){
+    .waves {
+        transform: scale(4);
+    }
     .aboutMe {
         margin-top: 270px;
     }
@@ -171,7 +177,7 @@
         width: 290px;
     }
     .form__placeholder {
-        font-size: 1.15rem;
+        font-size: 1rem;
     }
     .footer-contain img {
         width: 55px;
@@ -211,7 +217,7 @@
         width: auto;
     }
     .form__placeholder {
-        font-size: 1rem;
+        font-size: .9rem;
     }
 
 }
