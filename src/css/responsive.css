@@ -1,0 +1,94 @@
+:root{
+    --blue-color: #234AFC;
+    --purple-color: #FF00FF;
+    --dark-theme: #27272b;
+    --light-theme: #EDEEFF;
+	--black-color: #0A0A0C;
+	--color-top-right: #222;
+    --color-bottom-left: #000;
+}
+
+@media screen and (max-width: 1024px){
+    .projects img{
+        width: 250px;
+    }
+    .btn-page{
+        font-size: 15px;
+    }
+    .img-projects{
+        width: 150px;
+    }
+    .form-title,
+    form{
+        margin: initial
+    }
+    .form__input{
+        width: 380px;
+    }
+    .textarea-btn{
+        margin-left: 3.5em;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .header{
+        display: none;
+    }
+    .hero-title {
+        font-size: 30px;
+        bottom: 7.5em;
+    }
+    .btn-page{
+        font-size: 11px;
+    }
+    .projects img{
+        width: 200px;
+    }
+    .aboutMe {
+        margin-top: 180px;
+    }
+    .personal-projects{
+        margin: 10em 0;
+        height: 100%;
+    }
+    .container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .form{
+        height: 100%;
+        text-align: center;
+    }
+    form{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+    .textarea-btn{
+        margin-left: initial;
+    }
+    .details-btn{
+        align-self: center;
+        margin-bottom: 4em;
+    }
+    .footer-contain img{
+        width: 80px;
+    }
+    .footer-contain a {
+        margin: 5px;
+    }
+    .footer-contain h4 {
+        letter-spacing: -1.9px;
+    }
+}
+
+@media screen and (max-width: 576px){
+
+}
+
+@media screen and (max-width: 480px){
+
+}
+
+@media screen and (max-width: 320px){
+
+}
