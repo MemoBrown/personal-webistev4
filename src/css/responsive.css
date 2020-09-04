@@ -31,8 +31,11 @@
 }
 
 @media screen and (max-width: 768px){
-    .header{
+    .nav{
         display: none;
+    }
+    .menu-mobile{
+        display: initial;
     }
     .hero-title {
         font-size: 30px;

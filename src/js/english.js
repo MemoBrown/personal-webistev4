@@ -1,4 +1,4 @@
-let words = ['Frontend Developer', 'Apasionado por la tecnología', 'Amante de las mascotas'],
+let words = ['Frontend Developer', 'Passionate about technology', 'Pet lover'],
 wordWrapper = document.getElementById('word'),
 wordWrapperContent = wordWrapper.innerHTML,
 addingWord = false,
@@ -30,6 +30,7 @@ setInterval(function(){
   }
 
 }, 120);
+
 
 
 // ---------------------------------------------menu

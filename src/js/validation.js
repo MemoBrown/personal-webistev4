@@ -48,7 +48,12 @@ $(document).ready(function(){
                   }
 
               })
-            // $('body').append(mensajeModal);
+        }else{
+          Swal.fire(
+            'Listo!',
+            'Mensaje enviado',
+            'success'
+          )
         }
     });
   
